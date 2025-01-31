@@ -3,37 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Новости и ссылки</title>
+    <title>Первые - Новости и ссылки</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background: #333; color: white; padding: 15px; text-align: center; font-size: 24px; }
-        nav { background: #444; padding: 10px; text-align: center; }
-        nav a { color: white; text-decoration: none; margin: 10px; }
+        header { background: #0056b3; color: white; padding: 15px; text-align: center; font-size: 24px; }
+        nav { background: #003366; padding: 10px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 10px; font-weight: bold; }
         .container { width: 80%; margin: 20px auto; }
         .news { background: #f4f4f4; padding: 15px; margin-bottom: 15px; border-radius: 5px; }
+        .news h2 { color: #0056b3; }
         footer { background: #222; color: white; text-align: center; padding: 10px; margin-top: 20px; }
     </style>
 </head>
 <body>
-    <header>Мой сайт</header>
+    <header>Первые - Новости и ссылки</header>
     <nav>
-        <a href="#">Ссылка 1</a>
-        <a href="#">Ссылка 2</a>
-        <a href="#">Ссылка 3</a>
+        <a href="#">Главная</a>
+        <a href="#">Новости</a>
+        <a href="#">Контакты</a>
     </nav>
     <div class="container">
         <div class="news">
-            <h2>Заголовок новости</h2>
-            <p>Описание новости. Тут может быть краткий текст.</p>
+            <h2>Первая новость</h2>
+            <p>Описание первой новости. Актуальная информация.</p>
         </div>
         <div class="news">
-            <h2>Еще одна новость</h2>
-            <p>Краткое описание второй новости.</p>
+            <h2>Вторая новость</h2>
+            <p>Краткое описание второй новости. Важные события.</p>
         </div>
     </div>
     <footer>
-        © 2025 Все права защищены
+        © 2025 Первые - Все права защищены
     </footer>
 </body>
 </html>
-
