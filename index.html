@@ -3,54 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Первые</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Простой сайт</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 15px;
+            background-color: blue;
+            border: 2px solid blue;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: white;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Первые</h1>
-        <p>Российское движение детей и молодёжи</p>
-        <nav>
-            <ul>
-                <li><a href="#news">Новости</a></li>
-                <li><a href="#social">Соц Сети</a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="news">
-        <h2>Новости</h2>
-        <p>Здесь будут последние новости движения.</p>
-    </section>
-
-    <section id="social">
-        <h2>Соц Сети</h2>
-        <p>Присоединяйтесь к нам в социальных сетях:</p>
-        <ul class="social-links">
-            <li><a href="https://vk.com/ваша_группа" target="_blank">ВКонтакте</a></li>
-            <li><a href="https://telegram.org/ваш_канал" target="_blank">Telegram</a></li>
-            <li><a href="https://youtube.com/ваш_канал" target="_blank">YouTube</a></li>
+    <nav>
+        <ul>
+            <li><a href="#">VK</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Вызовы</a></li>
         </ul>
-    </section>
-
-    <section id="about">
-        <h2>О нас</h2>
-        <p>Мы — движение "Первые", объединяющее детей и молодёжь России. Наша цель — развитие, поддержка и вдохновение.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Контакты</h2>
-        <p>Свяжитесь с нами:</p>
-        <ul class="contact-info">
-            <li>Email: info@pervye.ru</li>
-            <li>Телефон: +7 (XXX) XXX-XX-XX</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>© 2023 Первые. Все права защищены.</p>
-    </footer>
+    </nav>
 </body>
 </html>
